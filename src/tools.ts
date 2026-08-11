@@ -8,12 +8,12 @@
 // Upstash credentials), so they're built per-request via factory functions
 // instead of being static exports.
 
-import { addElements } from "./tools/add-elements";
-import { removeElements } from "./tools/remove-elements";
-import { updateElements } from "./tools/update-elements";
-import { queryCanvas } from "./tools/query-canvas";
-import { makeSearchWeb } from "./tools/search-web";
-import { makeSearchKnowledge } from "./tools/search-knowledge";
+import { addElements } from './tools/add-elements';
+import { removeElements } from './tools/remove-elements';
+import { updateElements } from './tools/update-elements';
+import { queryCanvas } from './tools/query-canvas';
+import { makeSearchWeb } from './tools/search-web';
+import { makeSearchKnowledge } from './tools/search-knowledge';
 
 export interface ToolEnv {
   TAVILY_API_KEY?: string;
